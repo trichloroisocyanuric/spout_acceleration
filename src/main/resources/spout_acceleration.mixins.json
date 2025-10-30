@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.example.spout_acceleration.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SpoutBlockEntityMixin",
+    "SpoutRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
